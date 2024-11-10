@@ -3,6 +3,9 @@
 **Overview**
 This project includes two assignments chosen from the provided list to showcase skills in data engineering, specifically ETL pipeline creation and data quality validation. The project uses open-source tools and libraries to meet the specified requirements.
 
+**Data Set Link**
+https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot
+https://www.kaggle.com/competitions/titanic/data
 **Assignments**
 1. ETL Pipeline Using Open-Source Tools
 
