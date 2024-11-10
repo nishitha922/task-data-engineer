@@ -16,11 +16,17 @@ https://www.kaggle.com/competitions/titanic/data
 **Objective: Build a simple ETL (Extract, Transform, Load) pipeline.**
 Process:
   1.Extract: Data is sourced from a CSV file. The dataset used for this project is publicly available and specified in the documentation.
+  
   2.Transform: The data undergoes specific transformations, including:
+  
   3. Filtering rows based on defined conditions.
+     
   4. Aggregating data (e.g., sum or average).
+     
   5. Removing missing or invalid data.
+     
   6. Load: The transformed data is loaded into a new CSV file or stored in a local SQLite database.
+      
   7. SQL Implementation: SQL queries are provided to create the necessary tables in SQLite and load transformed data.
 
 **Data Quality Assurance**
@@ -28,28 +34,38 @@ Process:
 Objective: Ensure data quality through validation and data cleaning techniques.
 Process:
   1. Implement checks for missing data, duplicates, and outliers.
+
   2.Define transformations to handle data inconsistencies.
- 3.Generate a data quality report summarizing the dataset's state and the applied quality checks.
+  
+  3.Generate a data quality report summarizing the dataset's state and the applied quality checks.
 
 **Requirements**
 The project is implemented using open-source libraries only, including:
+
 Python for scripting.
+
 Pandas for data manipulation.
+
 SQLite for database operations.
+
 Jupyter Notebooks for code and analysis.
 
 **Project Structure**
 ETL.ipynb: Jupyter notebook for the ETL pipeline assignment.
+
 Data_quality.ipynb: Jupyter notebook for data quality validation and checks.
 
 README.md: Documentation for understanding the project, requirements, and instructions.
 
 **Instructions**
 Clone the Repository:
+
 bash
 Copy code
-git clone <repository-url>
+
+git clone [<repository-url>](https://github.com/nishitha922/task-data-engineer.git)
 Install Required Libraries:
+
 
 Copy code
 pip install -r requirements.txt
